@@ -1,0 +1,6 @@
+{
+  "extends": "vanilla",
+  "globals": {
+    "Zone": true
+  }
+}
