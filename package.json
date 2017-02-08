@@ -1,7 +1,10 @@
 {
   "name": "vanilla-make-example",
   "dependencies": {
-    "vanilla-make": "0.0.0"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "vanilla-make": "^0.2.0",
+    "vanilla-make-plugin-react": "^0.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",

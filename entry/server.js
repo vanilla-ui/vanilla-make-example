@@ -1,3 +1,1 @@
-export default (...args) => {
-  console.log("server", ...args);
-};
+export default from "../src";
