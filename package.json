@@ -6,7 +6,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-helmet": "^4.0.0",
-    "react-router": "next",
+    "react-router-dom": "next",
     "vanilla-make": "^0.2.0",
     "vanilla-make-plugin-react": "^0.0.1"
   },
