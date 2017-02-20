@@ -5468,9 +5468,9 @@ vanilla-make@^0.1.1:
     yargs "^6.6.0"
     zone.js "^0.7.6"
 
-vanilla-make@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/vanilla-make/-/vanilla-make-0.3.2.tgz#dd2523c1529f537689725ed34920db6d7337576f"
+vanilla-make@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/vanilla-make/-/vanilla-make-0.3.4.tgz#406658299f4e6586553ac420bec11b7a883ccc63"
   dependencies:
     babel-eslint "^7.1.1"
     babel-loader "^6.2.10"
