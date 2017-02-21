@@ -1,23 +1,23 @@
 BIN := ./node_modules/.bin
 
-VANILLA := $(BIN)/vanilla
+VANIPACK := $(BIN)/vanipack
 ESLINT := $(BIN)/eslint
 
 default: start
 
 start:
-	NODE_ENV=production $(VANILLA) start
+	NODE_ENV=production $(VANIPACK) start
 
 build:
-	NODE_ENV=production $(VANILLA) build
+	NODE_ENV=production $(VANIPACK) build
 
 serve:
-	$(VANILLA) serve
+	$(VANIPACK) serve
 
 lint:
 	$(ESLINT) .
 
 clean:
-	rm -rf ./.vanilla
+	rm -rf ./.vanipack
 
 .PHONY: default start build serve lint clean

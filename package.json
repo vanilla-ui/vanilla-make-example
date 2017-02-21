@@ -11,8 +11,8 @@
     "react-dom": "^15.4.2",
     "react-helmet": "^4.0.0",
     "react-router-dom": "next",
-    "vanilla-make": "^0.3.4",
-    "vanilla-make-plugin-react": "^0.1.1"
+    "vanipack": "^0.5.1",
+    "vanipack-plugin-react": "^0.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
