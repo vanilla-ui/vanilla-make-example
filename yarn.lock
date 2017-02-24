@@ -191,7 +191,7 @@ async-listener@^0.6.0:
   dependencies:
     shimmer "1.0.0"
 
-async@^1.5.0, async@^1.5.2:
+async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
@@ -1166,6 +1166,10 @@ caniuse-db@^1.0.30000346, caniuse-db@^1.0.30000624:
   version "1.0.30000624"
   resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000624.tgz#554b87547895e36f5fe128f4b7448a2ea5bf2213"
 
+case-sensitive-paths-webpack-plugin@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-1.1.4.tgz#8aaedd5699a86cac2b34cf40d9b4145758978472"
+
 caseless@~0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.11.0.tgz#715b96ea9841593cc33067923f5ec60ebda4f7d7"
@@ -1818,6 +1822,12 @@ error-stack-parser@^1.3.6:
   dependencies:
     stackframe "^0.3.1"
 
+error-stack-parser@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/error-stack-parser/-/error-stack-parser-2.0.0.tgz#9ce7777b32480e34a34c12a88b3428093fcd14b0"
+  dependencies:
+    stackframe "^1.0.2"
+
 es-abstract@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.7.0.tgz#dfade774e01bfcd97f96180298c449c8623fb94c"
@@ -2170,14 +2180,6 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extract-text-webpack-plugin@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-1.0.1.tgz#c95bf3cbaac49dc96f1dc6e072549fbb654ccd2c"
-  dependencies:
-    async "^1.5.0"
-    loader-utils "^0.2.3"
-    webpack-sources "^0.1.0"
-
 extract-text-webpack-plugin@beta:
   version "2.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-2.0.0-rc.3.tgz#7381aa7869ce26d4b39a7bab71cf09e5a38432b2"
@@ -2328,6 +2330,14 @@ forwarded@~0.1.0:
 fresh@0.3.0, fresh@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.3.0.tgz#651f838e22424e7566de161d8358caa199f83d4f"
+
+friendly-errors-webpack-plugin@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.4.0.tgz#d1cec96387c7586122202e8a946e4e66baf2c102"
+  dependencies:
+    chalk "^1.1.3"
+    error-stack-parser "^2.0.0"
+    string-length "^1.0.1"
 
 from@~0:
   version "0.1.3"
@@ -3159,7 +3169,7 @@ loader-runner@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
 
-loader-utils@^0.2.15, loader-utils@^0.2.16, loader-utils@^0.2.3, loader-utils@^0.2.7, loader-utils@~0.2.2, loader-utils@~0.2.5:
+loader-utils@^0.2.15, loader-utils@^0.2.16, loader-utils@^0.2.7, loader-utils@~0.2.2, loader-utils@~0.2.5:
   version "0.2.17"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-0.2.17.tgz#f86e6374d43205a6e6c60e9196f17c0299bfb348"
   dependencies:
@@ -5071,6 +5081,10 @@ stackframe@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-0.3.1.tgz#33aa84f1177a5548c8935533cbfeb3420975f5a4"
 
+stackframe@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.0.2.tgz#162245509c687d328b14f671dab8fdb755b1e1e8"
+
 "statuses@>= 1.2.1 < 2", "statuses@>= 1.3.1 < 2", statuses@^1.2.0, statuses@~1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.3.1.tgz#faf51b9eb74aaef3b3acf4ad5f61abf24cb7b93e"
@@ -5106,7 +5120,7 @@ strict-uri-encode@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
 
-string-length@^1.0.0:
+string-length@^1.0.0, string-length@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/string-length/-/string-length-1.0.1.tgz#56970fb1c38558e9e70b728bf3de269ac45adfac"
   dependencies:
@@ -5436,37 +5450,16 @@ value-equal@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-0.2.0.tgz#4f41c60a3fc011139a2ec3d3340a8998ae8b69c0"
 
-vanilla-make@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/vanilla-make/-/vanilla-make-0.1.1.tgz#abcf2696cc76fbf8fc410e8633cf1613a99861c0"
-  dependencies:
-    babel-loader "^6.2.10"
-    babel-plugin-dynamic-import-node "^1.0.0"
-    babel-preset-vanilla "^5.0.0"
-    babel-register "^6.22.0"
-    continuation-local-storage "^3.2.0"
-    extract-text-webpack-plugin "^1.0.1"
-    fs-promise "^1.0.0"
-    lodash "^4.17.4"
-    nodemon "^1.11.0"
-    rxjs "^5.1.0"
-    webpack "^2.2.1"
-    webpack-dev-server "^2.3.0"
-    webpack-manifest-plugin "^1.1.0"
-    webpack-node-externals "^1.5.4"
-    yargs "^6.6.0"
-    zone.js "^0.7.6"
-
-vanipack-plugin-react@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/vanipack-plugin-react/-/vanipack-plugin-react-0.2.0.tgz#3aba758ecc19b84c38e1464af26e0eb82cffb594"
+vanipack-plugin-react@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/vanipack-plugin-react/-/vanipack-plugin-react-0.3.1.tgz#d572ec3765ab2f12a83c4f64f4db0412cd6927ad"
   dependencies:
     babel-preset-vanilla "^5.0.0"
-    vanilla-make "^0.1.1"
+    react-hot-loader next
 
-vanipack@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/vanipack/-/vanipack-0.5.1.tgz#57ede96192b5617c5ec70c8d7d3c2b7d9cc85667"
+vanipack@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/vanipack/-/vanipack-0.6.0.tgz#0d3ace00afda7838b418725c39ba2ffda1123b53"
   dependencies:
     babel-eslint "^7.1.1"
     babel-loader "^6.2.10"
@@ -5474,8 +5467,10 @@ vanipack@^0.5.1:
     babel-plugin-transform-es2015-modules-commonjs "^6.23.0"
     babel-preset-vanilla "^5.0.0"
     babel-register "^6.22.0"
+    case-sensitive-paths-webpack-plugin "^1.1.4"
     continuation-local-storage "^3.2.0"
     css-loader "^0.26.1"
+    escape-string-regexp "^1.0.5"
     eslint "^3.15.0"
     eslint-config-vanilla "^5.1.0"
     eslint-loader "^1.6.1"
@@ -5485,6 +5480,7 @@ vanipack@^0.5.1:
     eslint-plugin-react "^6.10.0"
     extract-text-webpack-plugin beta
     file-loader "^0.10.0"
+    friendly-errors-webpack-plugin "^1.4.0"
     fs-promise "^1.0.0"
     html-loader "^0.4.4"
     lodash "^4.17.4"
@@ -5495,7 +5491,7 @@ vanipack@^0.5.1:
     rxjs "^5.1.0"
     style-loader "^0.13.1"
     webpack "^2.2.1"
-    webpack-dev-server "^2.3.0"
+    webpack-dev-server "^2.4.1"
     webpack-manifest-plugin "^1.1.0"
     webpack-node-externals "^1.5.4"
     yargs "^6.6.0"
@@ -5553,7 +5549,7 @@ webpack-dev-middleware@^1.9.0:
     path-is-absolute "^1.0.0"
     range-parser "^1.0.3"
 
-webpack-dev-server@^2.3.0:
+webpack-dev-server@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-2.4.1.tgz#48556f793186eac0758df94730c034ed9a4d0f12"
   dependencies:
@@ -5743,7 +5739,3 @@ yargs@~3.10.0:
     cliui "^2.1.0"
     decamelize "^1.0.0"
     window-size "0.1.0"
-
-zone.js@^0.7.6:
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.7.7.tgz#0d7b7ae7f68012d03438b8a18f5763441bbf9620"
