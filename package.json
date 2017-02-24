@@ -1,5 +1,6 @@
 {
   "name": "vanipack-example",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "test": "make lint"
