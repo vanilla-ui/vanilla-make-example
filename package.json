@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-make-example",
+  "name": "vanipack-example",
   "license": "MIT",
   "scripts": {
     "test": "make lint"
