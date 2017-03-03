@@ -15,7 +15,7 @@
     "stylelint": "^7.9.0",
     "stylelint-config-vanilla": "^3.0.0",
     "stylelint-order": "^0.3.0",
-    "vanipack": "^0.7.1",
+    "vanipack": "^0.8.0",
     "vanipack-plugin-react": "^0.4.0"
   },
   "devDependencies": {
