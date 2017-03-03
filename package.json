@@ -12,6 +12,9 @@
     "react-dom": "^15.4.2",
     "react-helmet": "^4.0.0",
     "react-router-dom": "next",
+    "stylelint": "^7.9.0",
+    "stylelint-config-vanilla": "^3.0.0",
+    "stylelint-order": "^0.3.0",
     "vanipack": "^0.7.1",
     "vanipack-plugin-react": "^0.4.0"
   },

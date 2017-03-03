@@ -2,6 +2,7 @@ BIN := ./node_modules/.bin
 
 VANIPACK := $(BIN)/vanipack
 ESLINT := $(BIN)/eslint
+STYLELINT := $(BIN)/stylelint
 
 default: start
 
@@ -16,6 +17,7 @@ serve:
 
 lint:
 	$(ESLINT) .
+	$(STYLELINT) ./**/*.css
 
 clean:
 	rm -rf ./.vanipack
