@@ -2180,13 +2180,13 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extract-text-webpack-plugin@beta:
-  version "2.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-2.0.0-rc.3.tgz#7381aa7869ce26d4b39a7bab71cf09e5a38432b2"
+extract-text-webpack-plugin@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-2.0.0.tgz#8640f72609800a3528f13a2a9634d566a5c1ae60"
   dependencies:
     ajv "^4.11.2"
     async "^2.1.2"
-    loader-utils "^0.2.16"
+    loader-utils "^1.0.2"
     webpack-sources "^0.1.0"
 
 extsprintf@1.0.2:
@@ -3177,6 +3177,14 @@ loader-utils@^0.2.15, loader-utils@^0.2.16, loader-utils@^0.2.7, loader-utils@~0
     emojis-list "^2.0.0"
     json5 "^0.5.0"
     object-assign "^4.0.1"
+
+loader-utils@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-1.0.2.tgz#a9f923c865a974623391a8602d031137fad74830"
+  dependencies:
+    big.js "^3.1.3"
+    emojis-list "^2.0.0"
+    json5 "^0.5.0"
 
 lodash._baseassign@^3.0.0:
   version "3.2.0"
@@ -5450,16 +5458,16 @@ value-equal@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-0.2.0.tgz#4f41c60a3fc011139a2ec3d3340a8998ae8b69c0"
 
-vanipack-plugin-react@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/vanipack-plugin-react/-/vanipack-plugin-react-0.3.1.tgz#d572ec3765ab2f12a83c4f64f4db0412cd6927ad"
+vanipack-plugin-react@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/vanipack-plugin-react/-/vanipack-plugin-react-0.4.0.tgz#e307ce6303c70a24adb649a8a8279f8d4545ebaa"
   dependencies:
     babel-preset-vanilla "^5.0.0"
     react-hot-loader next
 
-vanipack@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/vanipack/-/vanipack-0.6.0.tgz#0d3ace00afda7838b418725c39ba2ffda1123b53"
+vanipack@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/vanipack/-/vanipack-0.7.0.tgz#0453a64c7929e358e570e274cda07e5b1b5e5d5f"
   dependencies:
     babel-eslint "^7.1.1"
     babel-loader "^6.2.10"
@@ -5478,7 +5486,7 @@ vanipack@^0.6.0:
     eslint-plugin-import "^2.2.0"
     eslint-plugin-jsx-a11y "^3.0.2"
     eslint-plugin-react "^6.10.0"
-    extract-text-webpack-plugin beta
+    extract-text-webpack-plugin "^2.0.0"
     file-loader "^0.10.0"
     friendly-errors-webpack-plugin "^1.4.0"
     fs-promise "^1.0.0"
