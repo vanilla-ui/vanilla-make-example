@@ -5925,16 +5925,16 @@ value-equal@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/value-equal/-/value-equal-0.2.0.tgz#4f41c60a3fc011139a2ec3d3340a8998ae8b69c0"
 
-vanipack-plugin-react@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/vanipack-plugin-react/-/vanipack-plugin-react-0.4.0.tgz#e307ce6303c70a24adb649a8a8279f8d4545ebaa"
+vanipack-plugin-react@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/vanipack-plugin-react/-/vanipack-plugin-react-0.5.2.tgz#cdb8b3de181d4fe25dda56552da471e1f5555183"
   dependencies:
     babel-preset-vanilla "^5.0.0"
     react-hot-loader next
 
-vanipack@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/vanipack/-/vanipack-0.8.0.tgz#4d3c0f413ae3c6c905e17efcd539dfa29f2e217a"
+vanipack@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/vanipack/-/vanipack-0.10.0.tgz#c88902bc159b6e10f3ce03466b48699ee0cfb986"
   dependencies:
     babel-eslint "^7.1.1"
     babel-loader "^6.3.2"
