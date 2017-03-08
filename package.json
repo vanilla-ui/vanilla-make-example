@@ -12,9 +12,6 @@
     "react-dom": "^15.4.2",
     "react-helmet": "^4.0.0",
     "react-router-dom": "next",
-    "stylelint": "^7.9.0",
-    "stylelint-config-vanilla": "^3.0.0",
-    "stylelint-order": "^0.3.0",
     "vanipack": "^0.10.0",
     "vanipack-plugin-react": "^0.5.2"
   },
@@ -27,6 +24,9 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "stylelint": "^7.9.0",
+    "stylelint-config-vanilla": "^3.0.0",
+    "stylelint-order": "^0.3.0"
   }
 }
